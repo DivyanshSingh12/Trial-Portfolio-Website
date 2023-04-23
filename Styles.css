@@ -291,7 +291,7 @@ a{
   background-color: #A21232;
 }
 
-@media (max-width: 540px) {
+@media screen and (max-width: 540px) {
   .top-most{
     display: flex;
     flex-direction: row;
