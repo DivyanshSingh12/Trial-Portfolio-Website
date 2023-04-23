@@ -1,0 +1,519 @@
+body{
+  margin: 0;
+  background-image: url("itachi_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.top-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-most{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 35rem;
+  height: 15rem;
+  background-color: black;
+  margin-top: 2.9rem;
+  border-radius:5%;
+
+}
+
+.photo{
+  width: 12rem;
+  margin-bottom: 1rem;
+  border-radius: 10rem;
+  margin-top: 1.4rem;
+
+}
+
+.intro-text{
+  margin-top: 3.5rem;
+}
+
+.top-most h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+}
+
+h2{
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.span{
+  color: #B9EDDD;
+}
+
+
+.span1{
+  color: #F6F7C1;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  width:42.5rem;
+  height:12.5rem;
+  background-color: black;
+  bottom: 13.55%;
+  margin-top: 8%;
+  border-radius:5%;
+}
+
+.lower{
+  display: flex;
+  flex-direction: row;
+}
+
+.skills h1{
+  font-family: 'Righteous', cursive;
+  color:#4E6E81;
+  font-size: 1.5rem;
+  margin-top:0;
+  margin-left: 5%;
+}
+
+.title{
+  width: 4.3rem;
+  height: 1.8rem;
+  background-color: #E9EDC9;
+  margin-top: 0.8rem;
+  margin-left: 0.6rem;
+  border-radius: 0.3rem;
+}
+
+
+.java{
+  width: 3.5rem;
+  height: 1.6rem;
+  background-color: #4E6E81;
+  margin-top: 1.5rem;
+  margin-left: 0.6rem;
+  border-radius: 0.25rem;
+  
+}
+
+
+.java h2{
+  font-size: 1.35rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+.java:hover{
+  background-color: #3F4E4F;
+}
+
+
+.DSA{
+  width: 20rem;
+  height: 1.7rem;
+  background-color: #647E68;
+  margin-left: 0.6rem;
+  margin-top: 1.51rem;
+  border-radius: 0.3rem;
+}
+
+
+.DSA h2{
+  font-size: 1.35rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 1.2%;
+  margin-left: 2.9%;
+}
+
+
+.DSA:hover{
+  background-color: #3B5249;
+}
+
+
+.python{
+  width: 4.7rem;
+  height: 1.5rem;
+  background-color: #5B4B8A;
+  margin-left: 0.6rem;
+  margin-top: 1.5rem;
+  border-radius: 0.3rem;
+}
+
+
+.python h2{
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 1.2%;
+  padding: 1.5%;
+  margin-left: 5%;
+}
+
+
+.python:hover{
+  background-color: #62374E;
+}
+
+.shtml{
+  width: 4.4rem;
+  height: 1.6rem;
+  background-color: #393646;
+  margin-left: 0.6rem;
+  margin-top: 1.51rem;
+  border-radius: 0.3rem;
+}
+
+
+.shtml h2{
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 2.9%;
+}
+
+
+.shtml:hover{
+  background-color: #245953;
+}
+
+.tcss{
+  width: 3.5rem;
+  height: 1.6rem;
+  background-color: #567189;
+  margin-left: 0.6rem;
+  margin-top: 1.51rem;
+  border-radius: 0.3rem;
+}
+
+
+.tcss h2{
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 2.9%;
+}
+
+
+.tcss:hover{
+  background-color: #658864;
+}
+
+.c{
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #7B2869;
+  margin-left: 0.6rem;
+  margin-top: 1.51rem;
+  border-radius: 0.3rem;
+}
+
+
+.c h2{
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 2.9%;
+}
+
+
+.c:hover{
+  background-color: #263159;
+}
+
+.second-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.TechS{
+  width: 7.3rem;
+  height: 1.6rem;
+  background-color: #472D2D;
+  margin-left: 0.6rem;
+  margin-top: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.TechS h2{
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 2%;
+}
+
+
+.TechS:hover{
+  background-color: #22577E;
+}
+
+.SEO{
+  width: 18rem;
+  height: 1.6rem;
+  background-color: #27323A;
+  margin-left: 0.6rem;
+  margin-top: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.SEO h2{
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 1.9%;
+}
+
+
+.SEO:hover{
+  background-color: #A21232;
+}
+
+@media (max-width: 540px) {
+  .top-most{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 35rem;
+    height: 34rem;
+    background-color: black;
+    margin-top: 8rem;
+    border-radius: 5%;
+    text-align: center;
+  }
+
+  .photo {
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 0;
+    border-radius: 10rem;
+    margin-top: 1.4rem;
+}
+
+.intro-text {
+  margin-top: 0;
+}
+
+.top-most h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  height: 70rem;
+  background-color: black;
+  bottom: 13.55%;
+  margin-top: 30%;
+  border-radius: 5%;
+}
+
+.title {
+  width: 11rem;
+  height: 5rem;
+  background-color: #E9EDC9;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  border-radius: 0.3rem;
+}
+
+.skills h1 {
+  font-family: 'Righteous', cursive;
+  color: #4E6E81;
+  font-size: 4rem;
+  margin-top: 0;
+  margin-left: 5%;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+}
+
+.java {
+  width: 10rem;
+  height: 4.7rem;
+  background-color: #4E6E81;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.java h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+.DSA {
+  width: 32rem;
+  height: 8.5rem;
+  background-color: #647E68;
+  margin-left: 1.5rem;
+  margin-top: 1.51rem;
+  border-radius: 0.3rem;
+}
+
+.DSA h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 1.2%;
+  margin-left: 2.9%;
+}
+
+.python {
+  width: 15rem;
+  height: 5rem;
+  background-color: #5B4B8A;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  border-radius: 0.3rem;
+}
+
+.python h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 1.2%;
+  padding: 1.5%;
+  margin-left: 5%;
+}
+
+.shtml {
+  width: 14.2rem;
+  height: 4.5rem;
+  background-color: #393646;
+  margin-left: 1.5rem;
+  margin-top: 1.51rem;
+  border-radius: 0.3rem;
+}
+
+.shtml h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 2.9%;
+}
+
+.tcss {
+  width: 10rem;
+  height: 4.5rem;
+  background-color: #567189;
+  margin-left: 1.5rem;
+  margin-top: 1.51rem;
+  border-radius: 0.3rem;
+}
+
+.tcss h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 2.9%;
+}
+
+.c {
+  width: 6rem;
+  height: 4.5rem;
+  background-color: #7B2869;
+  margin-left: 1.5rem;
+  margin-top: 1.51rem;
+  border-radius: 0.3rem;
+}
+
+.c h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 2.9%;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.TechS {
+  width: 25rem;
+  height: 5rem;
+  background-color: #472D2D;
+  margin-left: 1.5rem;
+  margin-top: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.TechS h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 2%;
+}
+
+.SEO {
+  width: 30rem;
+  height: 9rem;
+  background-color: #27323A;
+  margin-left: 1.5rem;
+  margin-top: 1.2rem;
+  border-radius: 0.3rem;
+}
+
+.SEO h2 {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0.2%;
+  text-align: left;
+  padding: 0.2rem;
+  margin-left: 1.9%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
