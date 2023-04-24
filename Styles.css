@@ -291,6 +291,16 @@ a{
   background-color: #A21232;
 }
 
+.first{
+  display: flex;
+  flex-direction: row;
+}
+
+.second{
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 540px) {
   .top-most {
     display: flex;
@@ -332,11 +342,11 @@ h2 {
 .skills {
   display: flex;
   flex-direction: column;
-  width: 20rem;
-  height: 25rem;
+  width: 18.5rem;
+  height: 19rem;
   background-color: black;
   bottom: 13.55%;
-  margin-top: 7rem;
+  margin-top: 4rem;
   border-radius: 5%;
   margin-left: 1rem;
 }
@@ -504,6 +514,16 @@ h2 {
   text-align: left;
   padding: 0.2rem;
   margin-left: 1.9%;
+}
+
+.first{
+  display: flex;
+  flex-direction: column;
+}
+
+.second{
+  display: flex;
+  flex-direction: row;
 }
 
 
