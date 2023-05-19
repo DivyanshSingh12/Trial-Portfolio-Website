@@ -14,6 +14,116 @@ body{
   align-items: center;
 }
 
+.nav{
+  display: flex;
+  width: 100%;
+  height: 2.5rem;
+  justify-content: flex-start;
+  background-color: #0C134F;
+  flex-direction: row;
+}
+
+.logo h1{
+  font-family: 'Poppins', sans-serif !important;
+  color:white;
+  font-size: 1.5rem !important;
+  margin: auto;
+}
+
+.logo{
+  margin-top: 0.1rem;
+  margin-left: 14rem
+}
+
+.dot{
+  color: chartreuse;
+}
+
+.T{
+  color: red;
+}
+
+.centered{
+  display: flex;
+  margin-left: 11.1rem;
+  margin-top: 0.5rem;
+}
+
+.tw{
+  font-family: 'Roboto', sans-serif !important;
+  color:white;
+  font-size: 1.2rem !important;
+  margin: auto;
+  margin-left: 9.5rem;
+  visibility: hidden;
+}
+
+.twitter{
+  width: 1.6rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.twitter .col{
+  background-color: rgb(214, 217, 219);
+}
+
+.twitter .col:hover{
+  background-color: white;
+}
+
+.linkedin{
+  width: 1.6rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.linkedin .linke{
+  background-color: rgb(214, 217, 219);
+}
+
+.linkedin .linke:hover{
+  background-color: white;
+}
+
+.lin{
+  font-family: 'Roboto', sans-serif !important;
+  color:white;
+  font-size: 1.2rem !important;
+  margin: auto;
+  margin-left: 0.5rem;
+  visibility: hidden;
+}
+
+.a{
+  
+  text-decoration: none !important;
+}
+
+.Experiences{
+  margin-right: 2.2rem;
+}
+
+.Home{
+  margin-right: 2.2rem;
+}
+
+.centered h1:hover{
+  color: #E3FDFD;
+  cursor: pointer;
+}
+
+.Books{
+  margin-right: 2.2rem;
+}
+
+.nav h1{
+  font-family: 'Inconsolata', monospace;
+  color:white;
+  font-size: 1.5rem;
+  margin: auto;
+}
+
 .top-most{
   display: flex;
   flex-direction: row;
@@ -301,13 +411,74 @@ a{
   flex-direction: row;
 }
 
+.mnav{
+  display: none;
+}
+
+.menu{
+  display: none;
+}
+
 @media screen and (max-width: 540px) {
+
+  .logo{
+    margin-left: 1rem;
+  }
+
+  .menu{
+       display: block;
+       margin-left: 22rem;
+       margin-top: 0.5rem;
+       color: white;
+   }
+
+  .centered{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left: 16rem !important;
+    background-color: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    height: 100vh;
+    visibility: hidden;
+  }
+
+  .twitter{
+    display: none;
+  }
+
+  .linkedin{
+    display: none;
+  }
+
+  .nav h1{
+    font-family: 'Inconsolata', monospace;
+    color:white;
+    font-size: 1.3rem;
+    margin: auto;
+  }
+
+  .Home{
+    margin-top: 5rem;
+  }
+
+  .Experiences{
+    margin-top: 0.5rem;
+  }
+
+  .Books{
+    margin-top: 0.5rem;
+  }
+
+  .YouTube{
+    margin-top: 0.5rem;
+  }
   .top-most {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 12rem;
+    width: 13.2rem;
     height: 14rem;
     background-color: black;
     margin-top: 2rem;
