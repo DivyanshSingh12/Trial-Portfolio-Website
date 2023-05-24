@@ -17,15 +17,15 @@ html,body
     overflow-y: hidden;
 }
 
-nav{
-  width: 100%;
-}
-
 .top-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+nav{
+  width: 100%;
 }
 
 .nav{
@@ -44,9 +44,12 @@ nav{
   margin: auto;
 }
 
+.mar{
+  width: 14rem;
+}
+
 .logo{
   margin-top: 0.1rem;
-  margin-left: 14rem
 }
 
 .dot{
@@ -110,8 +113,8 @@ nav{
 }
 
 .a{
-  
   text-decoration: none !important;
+  color: none;
 }
 
 .Experiences{
