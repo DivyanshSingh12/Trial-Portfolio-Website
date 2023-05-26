@@ -7,6 +7,7 @@ function Right1(){
 
 
 document.querySelector(".Right-arrow").addEventListener("click", Right1)
+document.querySelector(".sv0").addEventListener("click", Right1)
 
 function Left1(){
     document.getElementById("im").classList.remove("inv");
@@ -16,3 +17,4 @@ function Left1(){
 }
 
 document.querySelector(".left-arrow").addEventListener("click", Left1)
+document.querySelector(".sv1").addEventListener("click", Left1)
