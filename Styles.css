@@ -117,6 +117,11 @@ nav{
   color: none;
 }
 
+.lit{
+  text-decoration: none;
+  all: unset;
+}
+
 .Experiences{
   margin-right: 2.2rem;
 }
