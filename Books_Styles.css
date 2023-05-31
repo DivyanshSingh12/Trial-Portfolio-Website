@@ -40,6 +40,8 @@ body{
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
     margin-left: 0.3rem;
+    border: 2px solid;
+    border-color: white;
   }
 
   .IMG1{
@@ -51,6 +53,8 @@ body{
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
     margin-left: 0.3rem;
+    border: 2px solid;
+    border-color: white;
   }
 
   .Text{
@@ -148,7 +152,7 @@ body{
 }
 
 .bts{
-  margin-top: 1.5rem;
+  margin-top: 1.5rem
 }
 
 .slide{
