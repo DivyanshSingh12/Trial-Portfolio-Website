@@ -148,7 +148,7 @@ body{
 }
 
 .bts{
-  margin-top: 1.5rem
+  margin-top: 1.5rem;
 }
 
 .slide{
@@ -159,8 +159,26 @@ body{
   margin-left: 2rem;
 }
 
+.slide1{
+  display: flex;
+  z-index: 1;
+  column-gap: 1rem;
+  margin-top: 10.6rem;
+  margin-left: 2rem;
+}
+
 
 .slide a{
+  width: 0.6rem;
+  border-radius: 50%;
+  height: 0.6rem;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: white;
+  cursor: pointer;
+}
+
+.slide1 a{
   width: 0.6rem;
   border-radius: 50%;
   height: 0.6rem;
