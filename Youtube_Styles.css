@@ -93,5 +93,10 @@ body{
       overflow-x: hidden; 
       overflow-y: auto;
   }
+      
+  .vid{
+    border-top: 1px dashed;
+    border-color: white;
+  }    
 
 }
