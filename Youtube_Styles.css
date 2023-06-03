@@ -90,7 +90,7 @@ body{
       height: 100%;
       margin: 0px;
       padding: 0px;
-      overflow-x: auto; 
+      overflow-x: hidden; 
       overflow-y: auto;
   }
 
