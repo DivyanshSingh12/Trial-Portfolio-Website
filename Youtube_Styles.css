@@ -79,9 +79,14 @@ body{
 
 
   @media screen and (max-width: 540px) {
-    .grid-layout{
+   
+  .Main-container{
+      align-items: center;
+    }
+
+  .grid-layout{
       grid-template-columns: 1fr;
-      margin-left: 2.2rem;
+      margin-left: 0;
   }
   
 
