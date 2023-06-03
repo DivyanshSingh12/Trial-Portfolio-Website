@@ -45,8 +45,9 @@ body{
     margin-left: 0.6rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    border-bottom: 2px solid;
-    border-color: cadetblue;
+    border: 2px solid;
+    border-radius: 1rem;
+    border-color: #151965;
     cursor: pointer;
     transition-property: transform;
   }
@@ -95,8 +96,8 @@ body{
   }
       
   .vid{
-    border-top: 1px dashed;
-    border-color: white;
+    border-radius: 0.5rem;
+    background-color: #041C32;
   }    
 
 }
