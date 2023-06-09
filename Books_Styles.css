@@ -195,3 +195,49 @@ body{
 .sv{
   background-color: white !important;
 }
+
+@media screen and (max-width: 540px) {
+
+  .IMG{
+    height: 100%;
+  }
+
+  .IMG1{
+    height: 100%;
+  }
+
+  .buttons{
+    display:none;
+  }
+  
+  .para{
+    display: none;
+  }
+
+  .slideshow{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 28rem;
+  }
+
+  .LeftA{
+    display: none;
+  }
+
+  .RightA{
+    display:none;
+  }
+
+  .Text{
+    margin: 0;
+    width: unset;
+  }
+
+  .Text1{
+    margin: 0;
+    width: unset;
+  }
+
+}
