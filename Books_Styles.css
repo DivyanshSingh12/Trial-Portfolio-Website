@@ -207,9 +207,13 @@ body{
   }
 
   .buttons{
-    display:none;
+    display: flex;
+    z-index: 1;
+    column-gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 4.5rem;
   }
-  
+
   .para{
     display: none;
   }
@@ -218,8 +222,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 15rem;
-    height: 28rem;
+    width: 16rem;
+    height: 29rem;
   }
 
   .LeftA{
