@@ -21,7 +21,7 @@ document.querySelector(".sv1").addEventListener("click", Left1)
 document.querySelector(".slideshow").addEventListener("touchstart", touchStart);
 
 function touchStart(){
-    document.querySelector(".slideshow").addEventListener("touchmove", navigateTo());
+    document.querySelector(".Imagee").addEventListener("touchmove", navigateTo());
 }
 
 function navigateTo(){
