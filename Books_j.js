@@ -18,20 +18,26 @@ function Left1(){
 document.querySelector(".left-arrow").addEventListener("click", Left1)
 document.querySelector(".sv1").addEventListener("click", Left1)
 
-document.querySelector(".Imagee").addEventListener("touchstart", touchStart);
+let presentClass = ".IMG";
+
+document.querySelector(presentClass).addEventListener("touchstart", touchStart);
 
 function touchStart(){
-    document.querySelector(".Imagee").addEventListener("touchmove", navigateTo());
+    document.querySelector(presentClass).addEventListener("touchmove", navigateTo());
 }
 
 function navigateTo(){
     if(document.getElementById("im").classList.contains("inv")){
         Left1();
+        presentClass = ".IMG"
+        document.querySelector(presentClass).addEventListener("touchstart", touchStart);
         return;
     }
 
     if(document.getElementById("im1").classList.contains("inv")){
         Right1();
+        presentClass = ".IMG1";
+        document.querySelector(presentClass).addEventListener("touchstart", touchStart);
         return;
     }
 }
